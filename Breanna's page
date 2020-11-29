@@ -5,7 +5,7 @@
 		<meta name="author" content="P&R Productions">
 		<meta name="description" content="CSCI 1210 ">
 		<meta name="keywords" content="CSCI 1210">
-        <title>Synthwave</title>
+        <title>P&R Productions|Synthwave</title>
         <link rel="icon" href="images/icon.png">
         <link rel="stylesheet" href="css/website.css">
 		<link href="https://fonts.googleapis.com/css?family=Antic" rel="stylesheet">
@@ -20,13 +20,11 @@
         <body>
 		<header>
              <!--change to home page-->
-    <a href="Webpage.html"><img src="images/logo.png"alt = 'p&r records icon'class ='floatLeft'></a>
+    <a href="Home.html"><img src="images/logo.png"alt = 'p&r records icon'class ='floatLeft'></a>
             
             <!--link home page-->
-            <h1><a href="#">P&R Productions</a></h1>
+            <h1><a href="Home.html">P&R Productions</a></h1>
             
-            
-
 <a href="#" class="fa fa-facebook"></a>
 <a href="#" class="fa fa-twitter"></a>
 <a href="#" class="fa fa-instagram"></a>        
@@ -34,12 +32,12 @@
 		</header>
             
 		<nav class="clearBoth">
-            <!--replace #-->
-			<a href ="#">Home</a>
-			<a href ="About%20Us.html">About us</a>
-			<a href ="#">Music</a>
-			<a href ="#">Contact</a>
-			<a href ="#">FAQ's</a>
+            <!--replace # with other pages-->
+			<a href ="Home.html">Home</a>
+			<a href ="AboutUs.html">About us</a>
+			<a href ="Music.html">Music</a>
+			<a href="contact.html">Contact</a>
+			<a href ="Faq's.html">FAQ's</a>
 		</nav>
             <h2>SYNTHWAVE</h2>
             
