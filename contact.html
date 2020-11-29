@@ -1,69 +1,131 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="author" content="P&R Productions">
-		<meta name="description" content="CSCI 1210 ">
-		<meta name="keywords" content="CSCI 1210">
-        <title>P&R Productions|Contact</title>
-        <link rel="icon" href="images/icon.png">
-        <link rel="stylesheet" href="css/contact.css">
-		<link href="https://fonts.googleapis.com/css?family=Antic" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<!--  
-			Author:			
-			Date:			
-			Assignment:		
-			Purpose:		
-		-->		
-	</head>
-        <body>
-		<header>
-             <!--change to home page-->
-    <a href="Home.html"><img src="images/logo.png"alt = 'p&r records icon'class ='floatLeft'></a>
-            
-            <!--link home page-->
-            <h1><a href="Home.html">P&R Productions</a></h1>
-            
-            
+/*
+	Author:			
+	Assignment:		SEMESTER PROJECT
+	Date:			3/29/2016
+	Purpose:		
+*/
 
-<a href="#" class="fa fa-facebook"></a>
-<a href="#" class="fa fa-twitter"></a>
-<a href="#" class="fa fa-instagram"></a>        
-            
-		</header>
-            
-		<nav class="clearBoth">
-            <!--replace # with other pages-->
-			<a href ="Home.html">Home</a>
-			<a href ="AboutUs.html">About us</a>
-			<a href ="Music.html">Music</a>
-            <!--contact have same url as homepage-->
-			<a href="contact.html">Contact</a>
-			<a href ="Faq's.html">FAQ's</a>
-		</nav>
-            
-     <div class="box">CONTACT US</div>
-            <div class="back"></div>
-            
-        <div class="container">
-  <form action="action_page.php">
+body {
+	font-family: 'Antic', sans-serif;
+	font-size: 1.2em;
+	background-color: black;
+	color: black ;
+}
 
-   
-    <input type="text" id="name" name="name" placeholder="Name">
+header, nav, article, footer {
+	width: 900px;
+	margin: auto;
+}
 
-    <input type="text" id="email" name="email" placeholder="Email">
+header {
+	height: 190px;
+	background-color: black;
+	color: white;
+	padding: 25px 0;
+}
 
-    
-    <textarea id="subject" name="subject" placeholder="How Can We Help You?" style="height:200px"></textarea>
-      
-      <input type="submit" value="Submit"></form></div>
-       
-      <footer>
-                <p>This is a student project.</p>
-		</footer>
-            
-      <script src="/js/w3c.js"></script>
-            
-    </body>
-</html>
+nav {
+	height: 2em;
+	padding: 0;
+	background-color: black;
+	border-bottom: 3px solid #400000;
+	margin-top: 0;
+}
+
+.fa {
+  padding: 2px;
+  font-size: 30px;
+  width: 50px;
+  text-decoration: none;
+  position: absolute; right: 1%;
+  margin: 5px 2px;
+}
+
+.fa-facebook {
+  top: 7em;
+  color: white;
+}
+
+.fa-twitter {
+  top: 10em;
+  color: white;
+}
+
+.fa-instagram {
+  top: 13em;
+  color: white;
+}
+
+
+nav a {
+	display: block;
+	width: 75px;
+	text-align: center;
+	margin-right: 5px;
+	float: left;
+	padding: 3px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+nav a:link, nav a:visited {
+	background-color:black;
+	color:white;
+}
+
+nav a:hover, nav a:active {
+	box-sizing: border-box;
+	background-color:black;
+	color: black;
+	border: 1px solid ;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+img.floatLeft {
+	display: block;
+	float: left;
+	margin:  1px;
+	height: 261px;
+}
+
+img.floatRight {
+	display: block;
+	float: right;
+	margin: 0 15px;
+	height: 150px;
+}
+
+.clearBoth {
+	clear: both;
+}
+
+footer {
+    padding-left: 32em;
+    text-align: center;
+    bottom: auto; bottom: -14em;
+	background-color:#f000;
+    position: absolute; right: 18%;
+	color: white;
+}
+
+h2 {
+	text-align: center;
+	width: 98%;
+    font-size: 35px;
+	margin: 25px;
+	color: white;
+    height: 2em;
+    border-bottom: 3px solid #400000;
+}
+
+header h1, header h2 {
+    display: block;
+    margin: 110px;
+    font-size: 45px;
+	border-width: 0;
+	color: white;
+}
