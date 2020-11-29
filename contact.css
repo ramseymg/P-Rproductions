@@ -107,9 +107,9 @@ img.floatRight {
 footer {
     padding-left: 32em;
     position: absolute;
-    bottom: auto; bottom: -25em;
+    bottom: auto; bottom: -13em;
 	background-color:#f000;
-    position: absolute; right: 4%;
+    position: absolute; right: -56%;
 	color: white;
 }
 
