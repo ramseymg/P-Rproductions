@@ -162,20 +162,45 @@ article {
 
 .music {
    color: white;
-   padding-top: 3em;
+   padding-top: 1em;
    position: absolute;
-   left: 7.6em;
+   left: 8.1em;
    font-size: 30px;
    border-bottom: 1px solid white;
 
 }
 
-.p {
+.bp {
    color: white;
-   padding-top: 6em;
-   position: absolute;
-   left: 3em;
-   font-size: 20px;
+   padding-top: 4em;
+   text-indent: 16px;
+   text-align: left;
+   position: absolute; left: -2.5%;
+   font-size: 19px;
+}
+
+.bp2 {
+   color: white;
+   padding-top: 16em;
+   text-align: left;
+   position: absolute; left: -2.3%;
+   font-size: 19px;
+}
+
+.bp3 {
+   color: white;
+   padding-top: 27em;
+   text-align: left;
+   position: absolute; left: -2.3%;
+   font-size: 19px;
+}
+
+.bp4 {
+   color: white;
+   padding-top: 11em;
+   text-align: left;
+   position: absolute; left: -2.3%;
+   font-size: 19px;
 }
 
 .tracks {
@@ -195,7 +220,7 @@ article {
     width: 12em;
 }
 
-.dreamaway {
+.comebackkid {
     padding-top: 5em;
     padding-left: 1em;
     position: absolute; right: -23%;
@@ -248,7 +273,7 @@ article {
     text-align: center;
     padding-left: 1em;
     bottom: auto; bottom: -19em;
-    position: absolute; right: -24%;
+    position: absolute; right: -23%;
 	float: right;
     width: 12em;
 }
