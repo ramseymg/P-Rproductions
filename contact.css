@@ -1,0 +1,183 @@
+/*
+	Author:			
+	Assignment:		SEMESTER PROJECT
+	Date:			3/29/2016
+	Purpose:		
+*/
+
+body {
+	font-family: 'Antic', sans-serif;
+	font-size: 1.2em;
+	background-color: black;
+	color: black ;
+}
+
+header, nav, article, footer {
+	width: 900px;
+	margin: auto;
+}
+
+header {
+	height: 190px;
+	background-color: black;
+	color: white;
+	padding: 25px 0;
+}
+
+nav {
+	height: 2em;
+	padding: 0;
+	background-color: black;
+	border-bottom: 3px solid #400000;
+	margin-top: 0;
+}
+
+.fa {
+  padding: 2px;
+  font-size: 30px;
+  width: 50px;
+  text-decoration: none;
+  position: absolute; right: 1%;
+  margin: 5px 2px;
+}
+
+.fa-facebook {
+  top: 7em;
+  color: white;
+}
+
+.fa-twitter {
+  top: 10em;
+  color: white;
+}
+
+.fa-instagram {
+  top: 13em;
+  color: white;
+}
+
+
+nav a {
+	display: block;
+	width: 75px;
+	text-align: center;
+	margin-right: 5px;
+	float: left;
+	padding: 3px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+nav a:link, nav a:visited {
+	background-color:black;
+	color:white;
+}
+
+nav a:hover, nav a:active {
+	box-sizing: border-box;
+	background-color:black;
+	color: black;
+	border: 1px solid ;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+img.floatLeft {
+	display: block;
+	float: left;
+	margin:  1px;
+	height: 261px;
+}
+
+img.floatRight {
+	display: block;
+	float: right;
+	margin: 0 15px;
+	height: 150px;
+}
+
+.clearBoth {
+    
+	clear: both;
+}
+
+footer {
+    padding-left: 32em;
+    position: absolute;
+    bottom: auto; bottom: -25em;
+	background-color:#f000;
+    position: absolute; right: 4%;
+	color: white;
+}
+
+h2 {
+	text-align: center;
+	width: 98%;
+    font-size: 35px;
+	margin: 25px;
+	color: white;
+    height: 2em;
+    border-bottom: 3px solid #400000;
+}
+
+header h1, header h2 {
+    display: block;
+    margin: 110px;
+    font-size: 45px;
+	border-width: 0;
+	color: white;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #400000;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 7px; 
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+input[type=submit] {
+  background-color: #400000;
+  color: white;
+  padding: 12px 29px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+.back {
+    background: #111111;
+    position: absolute;
+    height: 690px;
+    width: 105%;
+    left: -1em;
+    bottom: auto; bottom: -22em;
+}
+
+.box {
+   color: white;
+   font-size: 2em;
+   font-weight: bolder;
+   padding-top: 1em;
+   padding-left: 10em;
+}
+
+.container {
+  color: white;
+  border-radius: 5px;
+  background-color: #111111;
+  padding: 15px;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1.2em;
+  bottom: auto; bottom: -12em;
+  position: absolute; right: 22%;
+}
