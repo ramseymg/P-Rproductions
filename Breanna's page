@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="P&R Productions">
+		<meta name="description" content="CSCI 1210 ">
+		<meta name="keywords" content="CSCI 1210">
+        <title>Synthwave</title>
+        <link rel="icon" href="images/icon.png">
+        <link rel="stylesheet" href="css/website.css">
+		<link href="https://fonts.googleapis.com/css?family=Antic" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!--  
+			Author:			
+			Date:			
+			Assignment:		
+			Purpose:		
+		-->		
+	</head>
+        <body>
+		<header>
+             <!--change to home page-->
+    <a href="Webpage.html"><img src="images/logo.png"alt = 'p&r records icon'class ='floatLeft'></a>
+            
+            <!--link home page-->
+            <h1><a href="#">P&R Productions</a></h1>
+            
+            
+
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-instagram"></a>        
+            
+		</header>
+            
+		<nav class="clearBoth">
+            <!--replace #-->
+			<a href ="#">Home</a>
+			<a href ="About%20Us.html">About us</a>
+			<a href ="#">Music</a>
+			<a href ="#">Contact</a>
+			<a href ="#">FAQ's</a>
+		</nav>
+            <h2>SYNTHWAVE</h2>
+            
+    <div class="box"></div>
+    <div class="box2"></div>
+            
+    <div class="music">About this music:</div>
+            
+        <article>
+            
+    <p class="p">Synthwave music info</p>
+            <p class="tracks">Tracks</p>
+            
+        <p class="title1">America 2</p>
+        <p class="title2">Dream Away</p>
+        <p class="title3">Deep Blue</p>
+        <p class="title4">Lost Boy</p>
+        <p class="title5">Dance with Somebody</p>
+        <p class="title6">Sunset</p>
+            
+        <div class="america2">
+                 <a href="https://youtu.be/PVAelZlPop8" target="_blank"><img src="images/america2.jpeg"alt ='amer2'></a>
+            </div>
+            
+        <div class="dreamaway">
+                 <a href="https://youtu.be/-dB_Cei-_IY" target="_blank"><img src="images/dream%20away.jpg"alt ='monsters'></a>
+            </div>
+            
+        <div class="deepblue">
+                 <a href="https://youtu.be/b6D6iGeEl1o" target="_blank"><img src="images/deepblue.jpg"alt ='deepbl'></a>
+            </div>
+            
+         <div class="lostboy">
+                 <a href="https://youtu.be/7wvLqpWtTUU" target="_blank"><img src="images/lostboy.jpg"alt ='lstboy'></a>
+            </div>
+            
+        <div class="dancewsomebody">
+                 <a href="https://youtu.be/ZNAqwJ7pXmY" target="_blank"><img src="images/dancewsomebody.jpg"alt ='pn'></a>
+            </div>
+            
+         <div class="sunset">
+                 <a href="https://youtu.be/URma_gu1aNE" target="_blank"><img src="images/sunset.jpg"alt ='snst'></a>
+            </div>
+                    </article>
+            
+            <footer>
+                <p>Music listed is owned by The Midnight. This is a student project.</p>
+		</footer>
+            
+            <script src="/js/w3c.js"></script>
+    </body>
+    </html>
