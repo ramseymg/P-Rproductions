@@ -28,7 +28,7 @@ nav {
 	height: 2em;
 	padding: 0;
 	background-color: black;
-	border-bottom: 3px solid #400000;
+	border-bottom: 3px solid #FF0000;
 	margin-top: 0;
 }
 
@@ -90,13 +90,6 @@ img.floatLeft {
 	float: left;
 	margin:  1px;
 	height: 261px;
-}
-
-img.floatRight {
-	display: block;
-	float: right;
-	margin: 0 15px;
-	height: 150px;
 }
 
 .clearBoth {
@@ -175,4 +168,3 @@ header h1, header h2 {
    position: absolute; right: 53%;
    bottom: auto; bottom: 2em;
 }
-
