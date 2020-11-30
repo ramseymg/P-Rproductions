@@ -1,0 +1,320 @@
+/*
+	Author:			
+	Assignment:		SEMESTER PROJECT
+	Date:			3/29/2016
+	Purpose:		
+*/
+
+body {
+	font-family: 'Antic', sans-serif;
+	font-size: 1.2em;
+	background-color: black;
+	color: black ;
+}
+
+header, nav, article, footer {
+	width: 900px;
+	margin: auto;
+}
+
+header {
+	height: 190px;
+	background-color: black;
+	color: white;
+	padding: 25px 0;
+}
+
+nav {
+	height: 2em;
+	padding: 0;
+	background-color: black;
+	border-bottom: 3px solid #FF0000;
+	margin-top: 0;
+}
+
+.fa {
+  padding: 2px;
+  font-size: 30px;
+  width: 50px;
+  text-decoration: none;
+  position: absolute; right: 1%;
+  margin: 5px 2px;
+}
+
+.fa-facebook {
+  top: 7em;
+  color: white;
+}
+
+.fa-twitter {
+  top: 10em;
+  color: white;
+}
+
+.fa-instagram {
+  top: 13em;
+  color: white;
+}
+
+
+nav a {
+	display: block;
+	width: 75px;
+	text-align: center;
+	margin-right: 5px;
+	float: left;
+	padding: 3px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+nav a:link, nav a:visited {
+	background-color:black;
+	color:white;
+}
+
+nav a:hover, nav a:active {
+	box-sizing: border-box;
+	background-color:black;
+	color: black;
+	border: 1px solid ;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+img.floatLeft {
+	display: block;
+	float: left;
+	margin:  1px;
+	height: 261px;
+}
+
+img.floatRight {
+	display: block;
+	float: right;
+	margin: 0 15px;
+	height: 150px;
+}
+
+.clearBoth {
+    
+	clear: both;
+}
+
+footer {
+    padding-left: 32em;
+    position: absolute;
+    bottom: auto; bottom: -25em;
+	background-color:#f000;
+    position: absolute; right: 4%;
+	color: white;
+}
+
+h2 {
+	text-align: center;
+	width: 98%;
+    font-size: 35px;
+	margin: 25px;
+	color: white;
+    height: 2em;
+    border-bottom: 3px solid #FF0000;
+}
+
+header h1, header h2 {
+    display: block;
+    margin: 110px;
+    font-size: 45px;
+	border-width: 0;
+	color: white;
+}
+
+.box {
+    background: #FF0000;
+    position: absolute;
+    margin: 20px;
+    height: 665px;
+    width: 45%;
+}
+
+.box2 {
+    background: #000000;
+    position: absolute;
+    right: 15px;
+    margin: 19px;
+    height: 665px;
+    width: 49%;
+}
+
+
+article {
+	color: white;
+   padding-top: 0em;
+   position: absolute;
+   left: 3em;
+   font-size: 20px;
+    /*
+	paragraph for synthwave	
+*/
+}
+
+.music {
+   color: white;
+   padding-top: 1em;
+   position: absolute;
+   left: 8.1em;
+   font-size: 30px;
+   border-bottom: 1px solid white;
+
+}
+
+.bp {
+   color: white;
+   padding-top: 4em;
+   text-indent: 16px;
+   text-align: left;
+   position: absolute; left: -2.5%;
+   font-size: 19px;
+}
+
+.bp2 {
+   color: white;
+   padding-top: 16em;
+   text-align: left;
+   position: absolute; left: -2.3%;
+   font-size: 19px;
+}
+
+.bp3 {
+   color: white;
+   padding-top: 27em;
+   text-align: left;
+   position: absolute; left: -2.3%;
+   font-size: 19px;
+}
+
+.bp4 {
+   color: white;
+   padding-top: 11em;
+   text-align: left;
+   position: absolute; left: -2.3%;
+   font-size: 19px;
+}
+
+.tracks {
+   color: white;
+   position: absolute;
+   right: -4em;
+   font-size: 37px;
+   border-bottom: 1px solid white;
+}
+
+
+.america2 {
+    padding-top: 5em;
+    padding-left: 1em;
+    position: absolute; right: 1.6%;
+	float: right;
+    width: 12em;
+}
+
+.comebackkid {
+    padding-top: 5em;
+    padding-left: 1em;
+    position: absolute; right: -23%;
+	float: right;
+}
+
+.deepblue {
+    padding-top: 5em;
+    padding-left: 1em;
+    position: absolute; right: -49%;
+	float: right;
+}
+
+.lostboy {
+    padding-left: 1em;
+    bottom: auto; bottom: -30.5em;
+    position: absolute; right: 1.6%;
+	float: right;
+    width: 12em;
+}
+
+.dancewsomebody {
+    padding-left: 1em;
+    bottom: auto; bottom: -30.5em;
+    position: absolute; right: -24.4%;
+	float: right;
+    width: 12em;
+}
+
+.sunset {
+    padding-left: 1em;
+    bottom: auto; bottom: -30.5em;
+    position: absolute; right: -50.4%;
+	float: right;
+    width: 12em;
+}
+
+.title1 {
+    float: right;
+    text-align: center;
+    padding-left: 1em;
+    bottom: auto; bottom: -19em;
+    position: absolute; right: 2%;
+	float: right;
+    width: 12em;
+}
+
+.title2 {
+    float: right;
+    text-align: center;
+    padding-left: 1em;
+    bottom: auto; bottom: -19em;
+    position: absolute; right: -23%;
+	float: right;
+    width: 12em;
+}
+
+.title3 {
+    float: right;
+    text-align: center;
+    padding-left: 1em;
+    bottom: auto; bottom: -19em;
+    position: absolute; right: -50%;
+	float: right;
+    width: 12em;
+}
+
+.title4 {
+    float: right;
+    text-align: center;
+    padding-left: 1em;
+    bottom: auto; bottom: -33em;
+    position: absolute; right: 1.5%;
+	float: right;
+    width: 12em;
+}
+
+.title5 {
+    float: right;
+    text-align: center;
+    padding-left: 1em;
+    bottom: auto; bottom: -33em;
+    position: absolute; right: -24.2%;
+	float: right;
+    width: 12em;
+}
+
+.title6 {
+    float: right;
+    text-align: center;
+    padding-left: 1em;
+    bottom: auto; bottom: -33em;
+    position: absolute; right: -50%;
+	float: right;
+    width: 12em;
+}
+
