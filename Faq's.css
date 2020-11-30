@@ -106,18 +106,18 @@ img.floatRight {
 footer {
     padding-left: 32em;
     text-align: center;
-    bottom: auto; bottom: -14em;
+    bottom: auto; bottom: -25em;
 	background-color:#f000;
     position: absolute; right: 18%;
 	color: white;
 }
 
 h2 {
-   text-align: center;
+	text-align: center;
 	width: 98%;
     font-size: 35px;
 	margin: 25px;
-    color: white;
+	color: white;
     height: 2em;
     border-bottom: 3px solid #400000;
 }
@@ -128,4 +128,55 @@ header h1, header h2 {
     font-size: 45px;
 	border-width: 0;
 	color: white;
+}
+
+.ptitle {
+   color: white;
+   font-size: 1.8em;
+   font-weight: bolder;
+   position: absolute; left: 38%;
+   border-bottom: 2px solid white;
+}
+
+.pq1 {
+   color: white;
+   font-size: 1.2em;
+   bottom: auto; top: 22em;
+   position: absolute; left: 24%;
+}
+
+.pa1 {
+   color: white;
+   font-size: 1em;
+   bottom: auto; top: 29em;
+   position: absolute; left: 24%;
+}
+
+.pq2 {
+   color: white;
+   font-size: 1.2em;
+   bottom: auto; top: 29em;
+   position: absolute; left: 24%;
+}
+
+.pa2 {
+   color: white;
+   font-size: 1em;
+   bottom: auto; top: 37.5em;
+   position: absolute; left: 24%;
+}
+
+
+.pq3 {
+    color: white;
+   font-size: 1.2em;
+   bottom: auto; top: 36em;
+   position: absolute; left: 24%;
+}
+
+.pa3 {
+   color: white;
+   font-size: 1em;
+   bottom: auto; top: 45.7em;
+   position: absolute; left: 24%;
 }
