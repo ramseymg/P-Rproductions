@@ -28,7 +28,7 @@ nav {
 	height: 2em;
 	padding: 0;
 	background-color: black;
-	border-bottom: 3px solid #400000;
+	border-bottom: 3px solid #FF0000;
 	margin-top: 0;
 }
 
@@ -100,25 +100,24 @@ img.floatRight {
 }
 
 .clearBoth {
-    
 	clear: both;
 }
 
 footer {
     padding-left: 32em;
-    position: absolute;
-    bottom: auto; bottom: -25em;
+    text-align: center;
+    bottom: auto; bottom: -14em;
 	background-color:#f000;
-    position: absolute; right: 4%;
+    position: absolute; right: 18%;
 	color: white;
 }
 
 h2 {
-	text-align: center;
+   text-align: center;
 	width: 98%;
     font-size: 35px;
 	margin: 25px;
-	color: white;
+    color: white;
     height: 2em;
     border-bottom: 3px solid #400000;
 }
