@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="P&R Productions">
+    <meta name="description" content="CSCI 1210 ">
+    <meta name="keywords" content="CSCI 1210">
+    <title>P&R Productions|Rock</title>
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="css/jazz.css">
+    <link href="https://fonts.googleapis.com/css?family=Antic" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--
+        Author:			Maegan
+        Date:			2-Dec-2020
+        Assignment:		Group Project
+        Purpose:		Skill testing
+    -->
+</head>
+<body>
+<header>
+    <!--change to home page-->
+    <a href="Home.html"><img src="images/logo.png" alt='p&r records icon' class='floatLeft'></a>
+
+    <!--link home page-->
+    <h1><a href="Home.html">P&R Productions</a></h1>
+
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-instagram"></a>
+
+</header>
+
+<nav class="clearBoth">
+    <!--replace # with other pages-->
+    <a href="Home.html">Home</a>
+    <a href="AboutUs.html">About us</a>
+    <a href="Music.html">Music</a>
+    <a href="contact.html">Contact</a>
+    <a href="Faq's.html">FAQ's</a>
+</nav>
+<h2>Rock</h2>
+
+<div class="box"></div>
+<div class="box2"></div>
+
+<div class="music">About this Genre</div>
+
+<article>
+
+    <p class="bp">
+        Rock and roll is a form of ,music developed in the 1950s and 1960s<br>
+        Rock music combines many kinds of ,music combines many<br> kinds of music
+        from the U.S., like country, folk music,<br>
+        gospel music, blues,and jazz.<br>
+        
+
+    <p class="bp4">
+       Rock and roll developed in the early 1950s<br>
+        from a kind of music called rhythm and blues performed by black,<br> singers and musicians.
+        At first, this music was popular with only<br> African-Americans. In the later 1950s and in the 1960s, rock and roll<br> became popular across the U.S. and Europe.</p>
+
+    <p class="bp2">By the 1970s, rock and roll was often just called "rock". <br>
+       In the 1070s, rock music bands such as Led Zeppelin, Aerosmith, and<br> the The Rolling Staones
+        played huge, loud concerts in outdoor stadiums.<br> Rock music from the 1970s was usually louder and haded than the<br> rock and roll from the 1950s. From the 1970s on rock has kept on evolving.<br>
+        </p>
+
+    <p class="bp3">Music samples produced in this type of genre is displayed next to this info<br> card.
+        Simply click the album cover you want and get ready to rock out.</p>
+
+
+    <p class="tracks">Tracks</p>
+
+    <p class="title1">Elvis Presley</p>
+    <p class="title2">Chuck Berry</p>
+    <p class="title3">The Beatles</p>
+    <p class="title4">Led Zepplin</p>
+    <p class="title5">Aerosmith</p>
+    <p class="title6">The Rolling Stones</p>
+
+    <div class="Elvis Presley">
+        <a href="https://www.youtube.com/watch?v=0OVFifGqvzM&list=PLhTSknLu58r-QsFbYPtjDh1Dk4Lfmi2Vt" target="_blank"><img src="images/elvispresley.jpeg" alt='Elvis Presley album' title="Elvis Presley"></a>
+    </div>
+
+    <div class="Chuck Berry">
+        <a href="https://www.youtube.com/watch?v=5LUu7geJqhA&list=PLm7YbuiZ9Ako0tBtPP-x6BefzevcmhhsE" target="_blank"><img src="images/chuckberry.jpeg" alt='Chuck Berry' title="Chuck Berry"></a>
+    </div>
+
+    <div class="The Beatles">
+        <a href="https://www.youtube.com/watch?v=UVKU6SevefY&list=PLycVTiaj8OI-XRoKhxMmBhnsefIc77M2_" target="_blank"><img src="images/thebeatles.jpeg" alt='The Beatles' title="The Beatles"></a>
+                                                                                   alt='Grover Washington Jr. '></a>
+    </div>
+
+    <div class="Led Zeppelin">
+        <a href="https://www.youtube.com/watch?v=VVP3g1-Wq_0&list=PL6ogdCG3tAWhycg6JGkYbFcrUKMSSVKkQ" target="_blank"><img src="images/ledzep.jpeg" alt='Led Zeppelin' tite="Led Zeppelin"></a>
+                                                                                   alt='Steely Dan'></a>
+    </div>
+    <div class="Aerosmith">
+        <a href="https://www.youtube.com/watch?v=bpEm4eB84aI&list=PLAF2397C30B776A80" target="_blank"><img src="images/aero.jpeg" alt='Aerosmith' title="Aerosmith"></a>
+                                                                                   alt='Herbie Hancock'></a>
+    </div>
+
+    <div class="The Rolling Stones">
+        <a href="https://www.youtube.com/watch?v=Oz53DUrPv5w&list=PL7Eh9ZzbqTg1Dpxgs8O3Qyk9JozrzW_r9" target="_blank"><img src="images/rollingstones.jpeg" alt='The Rolling Stones' title="The Rolling Stones"></a>
+                                                                                   alt='Dave Brubeck'></a>
+    </div>
+
+</article>
+
+<footer>
+    <p> This is a student project.</p>
+</footer>
+
+<script src="/js/w3c.js"></script>
+</body>
+</html>
